@@ -1,0 +1,143 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K42 ]
+[d frameptr 16353 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"60 H:\Tele\MPLab_Projects\UART_Serielle_Schnittstell.X\main.c
+[v _configPorts configPorts `(v  1 e 1 0 ]
+"65
+[v _configUART2 configUART2 `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+[s S130 . 1 `uc 1 I2C2IF 1 0 :1:0 
+`uc 1 I2C2EIF 1 0 :1:1 
+`uc 1 U2RXIF 1 0 :1:2 
+`uc 1 U2TXIF 1 0 :1:3 
+`uc 1 U2EIF 1 0 :1:4 
+`uc 1 U2IF 1 0 :1:5 
+`uc 1 TMR3IF 1 0 :1:6 
+`uc 1 TMR3GIF 1 0 :1:7 
+]
+"4505 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f47k42.h
+[u S139 . 1 `S130 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES139  1 e 1 @14758 ]
+"8016
+[v _RD6PPS RD6PPS `VEuc  1 e 1 @14878 ]
+"25238
+[v _U2TXB U2TXB `VEuc  1 e 1 @15826 ]
+[s S45 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+"25388
+[s S49 . 1 `uc 1 U2MODE 1 0 :4:0 
+`uc 1 U2RXEN 1 0 :1:4 
+`uc 1 U2TXEN 1 0 :1:5 
+`uc 1 U2ABDEN 1 0 :1:6 
+`uc 1 U2BRGS 1 0 :1:7 
+]
+[s S55 . 1 `uc 1 U2MODE0 1 0 :1:0 
+`uc 1 U2MODE1 1 0 :1:1 
+`uc 1 U2MODE2 1 0 :1:2 
+]
+[s S59 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S65 . 1 `S45 1 . 1 0 `S49 1 . 1 0 `S55 1 . 1 0 `S59 1 . 1 0 ]
+[v _U2CON0bits U2CON0bits `VES65  1 e 1 @15834 ]
+[s S93 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"25498
+[s S101 . 1 `uc 1 U2SENDB 1 0 :1:0 
+`uc 1 U2BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U2RXBIMD 1 0 :1:3 
+`uc 1 U2WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U2ON 1 0 :1:7 
+]
+[u S109 . 1 `S93 1 . 1 0 `S101 1 . 1 0 ]
+[v _U2CON1bits U2CON1bits `VES109  1 e 1 @15835 ]
+"25692
+[v _U2BRGL U2BRGL `VEuc  1 e 1 @15837 ]
+"25712
+[v _U2BRGH U2BRGH `VEuc  1 e 1 @15838 ]
+[s S24 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"45813
+[u S33 . 1 `S24 1 . 1 0 ]
+"45813
+"45813
+[v _TRISDbits TRISDbits `VES33  1 e 1 @16325 ]
+"80 H:\Tele\MPLab_Projects\UART_Serielle_Schnittstell.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+[v main@k k `i  1 a 2 11 ]
+"88
+[v main@msg msg `*.32uc  1 a 2 9 ]
+"83
+[v main@MAX MAX `i  1 a 2 6 ]
+"99
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.32Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.32Cuc  1 p 2 0 ]
+"12
+} 0
+"65 H:\Tele\MPLab_Projects\UART_Serielle_Schnittstell.X\main.c
+[v _configUART2 configUART2 `(v  1 e 1 0 ]
+{
+"77
+} 0
+"60
+[v _configPorts configPorts `(v  1 e 1 0 ]
+{
+"63
+} 0
